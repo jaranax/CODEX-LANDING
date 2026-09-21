@@ -3,6 +3,20 @@ https://www.youtube.com/watch?v=pHstb0JGGhE
 
 -------------------
 
+- **Prepara el proyecto:** inspecciona el workspace, respeta lo existente y crea la estructura de archivos y carpetas necesaria.
+
+- **Recopila contexto:** analiza referencias visuales, documentos del negocio y, si le das una URL, extrae información de la web actual con Firecrawl.
+
+- **Completa la información contigo:** te entrevista solo sobre lo que falte, evitando preguntas innecesarias.
+
+- **Define estrategia y contenido:** identifica target, pain points, propuesta de valor, copy, arquitectura de páginas y mensajes principales.
+
+- **Define y ejecuta el diseño:** crea una dirección visual coherente con las referencias y construye la web con una implementación ligera y adaptada al proyecto.
+
+- **Revisa y documenta:** comprueba responsive, accesibilidad, funcionamiento, contenido inventado y deja registrados los pendientes e integraciones necesarias.
+
+
+------------------------
 
 Creas un proyecto nuevo, por ejemplo logopeda, pegas el prompt maestro y Codex prepara la estructura base. Después tú metes los materiales donde corresponda: referencias visuales en referencias/estilo/, información del negocio en referencias/negocio/, imágenes reales en assets/images/, logotipo en assets/logos/, etc.
 
