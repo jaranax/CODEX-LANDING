@@ -1,3 +1,9 @@
+--------------------------
+https://www.youtube.com/watch?v=pHstb0JGGhE
+
+-------------------
+
+
 Creas un proyecto nuevo, por ejemplo logopeda, pegas el prompt maestro y Codex prepara la estructura base. Después tú metes los materiales donde corresponda: referencias visuales en referencias/estilo/, información del negocio en referencias/negocio/, imágenes reales en assets/images/, logotipo en assets/logos/, etc.
 
 A partir de ahí, Codex debería trabajar en este orden:
