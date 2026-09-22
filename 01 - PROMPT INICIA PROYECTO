@@ -639,22 +639,33 @@ Estos documentos deben convertirse en la fuente de verdad del proyecto.
 
 # 16. Arquitectura de contenidos
 
-Define la arquitectura antes del diseño visual.
+Define la arquitectura de contenidos antes de cerrar la dirección visual y antes de implementar la web.
 
-Decide qué necesita realmente la web para cumplir su objetivo.
+La estructura de cada página debe construirse a partir de:
+
+* objetivo comercial;
+* tipo de negocio;
+* producto o servicio;
+* público objetivo;
+* estrategia de copy;
+* información disponible;
+* recorrido esperado del usuario;
+* referencias visuales cuando puedan aportar formas interesantes de presentar el contenido.
+
+No utilices automáticamente una estructura estándar.
 
 No añadas secciones únicamente porque sean habituales.
 
 No fuerces estructuras del tipo:
 
-Hero
-→ tres tarjetas
-→ tres tarjetas
-→ testimonios
-→ FAQ
+Hero  
+→ tres tarjetas  
+→ tres tarjetas  
+→ testimonios  
+→ FAQ  
 → CTA
 
-si no responden al contenido real.
+si no responden al contenido real del proyecto.
 
 Prioriza:
 
@@ -664,9 +675,79 @@ Prioriza:
 * jerarquía;
 * progresión narrativa;
 * reducción de fricción;
-* CTA coherentes.
+* coherencia entre secciones;
+* CTA claros;
+* equilibrio entre contenido textual y visual.
 
-Determina si el proyecto necesita:
+## Propuesta de arquitectura
+
+Una vez comprendidos el negocio, el target, la oferta y el objetivo de la web, propón al usuario una primera arquitectura de contenidos.
+
+Para una landing, intenta sintetizar la propuesta en aproximadamente 5–7 módulos principales cuando tenga sentido.
+
+No fuerces este número si el proyecto necesita claramente más o menos.
+
+Para cada módulo propuesto indica brevemente:
+
+* función de la sección;
+* qué debe comunicar;
+* por qué es relevante;
+* qué contenido podría incluir;
+* qué recurso visual podría ayudar a comunicarlo;
+* qué papel cumple dentro del recorrido hacia la conversión.
+
+La propuesta debe responder al negocio concreto.
+
+Las referencias visuales pueden inspirar:
+
+* composición;
+* ritmo;
+* forma de presentar servicios;
+* galerías;
+* transiciones;
+* imágenes protagonistas;
+* bloques interactivos;
+* llamadas a la acción;
+
+pero no deben determinar automáticamente qué secciones necesita la página.
+
+## Revisión colaborativa
+
+Antes de cerrar `CONTENT.md`, presenta la propuesta de módulos al usuario.
+
+Permite que el usuario pueda:
+
+* añadir secciones;
+* eliminar secciones;
+* fusionar módulos;
+* cambiar el orden;
+* modificar prioridades;
+* destacar determinados servicios;
+* dar mayor o menor protagonismo a imágenes;
+* incorporar contenido que considere importante.
+
+Si existen varias formas razonables de estructurar la página, explica brevemente las alternativas y recomienda una dirección, pero no continúes con la estructura definitiva hasta recibir feedback del usuario.
+
+No empieces todavía la implementación.
+
+## Confirmación de la estructura
+
+Una vez acordada la arquitectura con el usuario:
+
+1. actualiza `CONTENT.md`;
+2. registra el orden definitivo de las secciones;
+3. define el objetivo de cada módulo;
+4. establece la jerarquía de mensajes;
+5. desarrolla los titulares, textos y CTA necesarios;
+6. identifica qué recursos visuales necesita cada sección;
+7. marca qué contenidos son provisionales o están pendientes;
+8. continúa con la definición de `DESIGN.md`.
+
+La arquitectura confirmada en `CONTENT.md` debe actuar como referencia para el diseño y la implementación.
+
+## Tipo de web y páginas
+
+Determina también si el proyecto necesita:
 
 * landing;
 * web corporativa;
@@ -681,6 +762,8 @@ Determina si el proyecto necesita:
 * otras páginas.
 
 No crees páginas vacías únicamente para completar un sitemap.
+
+No continúes con el diseño visual definitivo ni con la implementación hasta que la arquitectura principal haya sido revisada con el usuario.
 
 ---
 
