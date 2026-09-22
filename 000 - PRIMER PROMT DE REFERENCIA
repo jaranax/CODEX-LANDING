@@ -1,0 +1,67 @@
+Actúa como un Diseñador UX/UI Senior y Desarrollador Web Frontend Experto en Tailwind CSS, React, Framer Motion y Cloudflare Workers.
+
+Necesito que crees un sitio web completo, interactivo y con animaciones profesionales de nivel de producción. El objetivo de la página es servir como un "Showcase / Landing Page de Ejemplo" para enseñar a las personas cómo crear sitios web online rápidamente, sin esfuerzo y potenciados con Inteligencia Artificial.
+
+---
+
+### 1. OBJETIVO DEL SITIO WEB
+
+Un sitio "Landing Page" moderno, altamente dinámico y visualmente deslumbrante (estilo Vercel/Linear/Stripe) que muestre:
+
+- Cómo la IA permite pasar de una idea a una web publicada en minutos.
+- Un diseño UX/UI de vanguardia con animaciones interactivas ("Animations Pro").
+- Demostraciones dinámicas de flujos de trabajo con IA.
+
+---
+
+### 2. REQUISITOS TECNOLÓGICOS Y ARQUITECTURA
+
+- **Framework Frontend:** React (v18+) usando Lucide-React para iconos.
+- **Estilos:** Tailwind CSS para un diseño responsive, fluido y con un tema Dark Mode elegante (con gradientes y efectos de cristal/glassmorphism).
+- **Animaciones (PRO):** Usar Framer Motion para:
+  - Scroll-driven animations (aparición suave al hacer scroll).
+  - Micro-interacciones (hover, tap, transiciones de estado).
+  - Componentes dinámicos interactivos (ej. un simulador o demostrador interactivo de prompts a código).
+- **Cero backend complejo:** Todo el sitio debe ser un Static Site Generator (SSG) o Single Page Application (SPA) liviana renderizable del lado del cliente.
+
+---
+
+### 3. ESTRUCTURA DE LA PÁGINA
+
+#### 1. **Hero Section:**
+
+- Título impactante con efecto de texto degradado y animado.
+- Subtítulo explicativo sobre crear páginas con IA.
+- Botón CTA principal animado con luces neumórficas o bordes brillantes ("glowing border").
+- Mockup de interfaz interactiva en 3D/animada del panel de control de IA.
+
+#### 2. **Feature Grid (Características Pro):**
+
+- Tarjetas bento (**Bento Grid**) con animaciones en hover (tilt effect + bordes iluminados).
+- Módulos explicando: Prompt to Web, Optimización UX en tiempo real, Deploy instantáneo.
+
+#### 3. **Simulador / Demostrador Interactivo (Interactive Demo):**
+
+- Un widget donde el usuario pueda "escribir un prompt de prueba" y ver cómo la interfaz simula la generación del sitio web en tiempo real con animaciones de código.
+
+#### 4. **Flujo de Publicación Rápida en Cloudflare Workers:**
+
+- Una sección de 3 pasos animados explicando al usuario cómo desplegar su página en CF Workers subiendo archivos.
+
+#### 5. **Footer:**
+
+- Enlaces elegantes, estado de la red e icono de redes sociales.
+
+---
+
+### 4. INSTRUCCIONES DE ENTREGA PARA CLOUDFLARE WORKERS
+
+El resultado final debe ser 100% funcional y listo para desplegarse de manera directa en Cloudflare Workers / Pages sin necesidad de configurar compiladores complejos por parte del usuario.
+
+Por favor, proporcióname:
+
+1. El código **`index.html`** completo e independiente que incluya los CDN necesarios (React, ReactDOM, Babel, Tailwind CSS, Framer Motion, Lucide Icons) para que funcione en cualquier navegador inmediatamente.
+2. Un archivo **`_routes.json`** o instrucciones breves para Cloudflare Workers Assets.
+3. Las instrucciones paso a paso para subir los archivos resultantes directamente desde el panel de Cloudflare (Cloudflare Assets / Pages) mediante drag-and-drop o upload directo.
+
+**Genera el código ejecutable completo y sin acortar.**
