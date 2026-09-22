@@ -618,14 +618,33 @@ No utilices automáticamente fórmulas de copywriting si empeoran la claridad.
 
 # 15. Consolidación antes del diseño
 
-Antes de programar la web, actualiza:
+Antes de definir la dirección visual definitiva y de programar la web, consolida y actualiza la documentación del proyecto.
 
-* BRIEF.md;
-* PRODUCT.md;
-* COPY.md;
-* CONTENT.md.
+Actualiza:
 
-Distingue claramente:
+* `AGENTS.md`, cuando durante el análisis, la entrevista o la revisión de referencias se hayan identificado reglas permanentes, restricciones, convenciones o criterios que deban mantenerse durante todo el proyecto;
+* `BRIEF.md`;
+* `PRODUCT.md`;
+* `COPY.md`;
+* `CONTENT.md`.
+
+Utiliza para ello toda la información obtenida de:
+
+* instrucciones directas del usuario;
+* entrevista;
+* documentación proporcionada;
+* web existente del negocio;
+* referencias visuales;
+* recursos disponibles en el workspace;
+* decisiones acordadas durante el proceso.
+
+No dejes estos documentos como plantillas vacías.
+
+Complétalos y actualízalos progresivamente conforme se obtenga o confirme nueva información.
+
+Cada documento debe contener únicamente la información que le corresponde según su función.
+
+Distingue claramente cuando sea necesario entre:
 
 * información confirmada;
 * información inferida;
@@ -633,7 +652,11 @@ Distingue claramente:
 
 No presentes inferencias importantes como hechos confirmados.
 
-Estos documentos deben convertirse en la fuente de verdad del proyecto.
+Si durante la conversación con el usuario se modifica una decisión relevante sobre el negocio, target, servicios, copy, arquitectura o restricciones, actualiza también los documentos afectados para evitar contradicciones.
+
+Estos documentos deben convertirse en la fuente de verdad del proyecto y servir de contexto para las siguientes fases.
+
+`DESIGN.md` se completará o actualizará después de definir la arquitectura de contenidos y antes de comenzar la implementación.
 
 ---
 
